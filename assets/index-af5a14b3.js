@@ -422,4 +422,4 @@ z-index:1;
 display: flex;
 
   position: fixed; /* Fixo na parte superior da tela */
-`;function Y1(){return C.jsxs(Q1,{children:[C.jsxs(K1,{children:[C.jsx(L1,{}),C.jsx("div",{style:{height:"190px"}})]}),C.jsx(I1,{}),C.jsx(M1,{}),C.jsx(F1,{}),C.jsx(U1,{}),C.jsx(W1,{}),C.jsx(H1,{})]})}function G1(){return C.jsx(sm,{children:C.jsx(nm,{children:C.jsx(yd,{path:"/",element:C.jsx(Y1,{})})})})}function X1(){return C.jsx("div",{className:"App",children:C.jsx(G1,{})})}const Z1={};ao.createRoot(document.getElementById("root")).render(C.jsx(p1,{theme:Z1,children:C.jsx(pe.StrictMode,{children:C.jsx(X1,{})})}));
+`;function Y1(){return C.jsxs(Q1,{children:[C.jsxs(K1,{children:[C.jsx(L1,{}),C.jsx("div",{style:{height:"190px"}})]}),C.jsx(I1,{}),C.jsx(M1,{}),C.jsx(F1,{}),C.jsx(U1,{}),C.jsx(W1,{}),C.jsx(H1,{})]})}function G1(){return C.jsx(sm,{children:C.jsx(nm,{children:C.jsx(yd,{path:"/institutocaridadearacaju/",element:C.jsx(Y1,{})})})})}function X1(){return C.jsx("div",{className:"App",children:C.jsx(G1,{})})}const Z1={};ao.createRoot(document.getElementById("root")).render(C.jsx(p1,{theme:Z1,children:C.jsx(pe.StrictMode,{children:C.jsx(X1,{})})}));
