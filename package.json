@@ -1,7 +1,7 @@
 {
   "name": "institutocaridadearacaju",
   "private": true,
-  "homepage": "https://luizjrlopes.github.io/institutocaridadearacaju/",
+  "homepage": "https://luizjrlopes.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,11 +10,16 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && npm run copy-cname && gh-pages -d dist",
+    "copy-cname": "cp CNAME dist/"
   },
   "dependencies": {
+    "icons": "^1.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.15.0",
+    "styled-components": "^6.0.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
