@@ -3,8 +3,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './../pages/Home';
 
 function Rotas() {
+  const basename = process.env.NODE_ENV === 'production' ? '/' : '/institutocaridadearacaju';
+
   return (
-    <BrowserRouter basename="/institutocaridadearacaju">
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
